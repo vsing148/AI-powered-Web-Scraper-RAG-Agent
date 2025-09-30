@@ -14,6 +14,13 @@ Continuously update the CSV after every new query.
 
 Use a RAG agent specialized on the CSV to answer natural language questions grounded in the scraped research.
 
+<h2>Setup</h2>
+Have ollama installed and set up, choosing your model of choice. 
+
+Add a .env file with your gemini API key
+
+Create your virtual environment in python and then pip install requests, dotenv, langchain, langchain-ollama, langchain-community, pandas, and langchain-chroma.
+
 <h2>🚀 Features</h2>
 
 Automated Scraping → Collects academic articles and metadata from the web.

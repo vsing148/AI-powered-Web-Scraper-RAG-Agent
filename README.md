@@ -28,7 +28,7 @@ RAG-Powered QA → Ollama-based RAG agent parses the CSV and answers questions u
 
 Portable & Extensible → Written in Python, easy to adapt for other data formats or LLMs.
 
-🛠️ Tech Stack
+<h2>🛠️ Tech Stack</h2>
 
 Language: Python
 
@@ -42,7 +42,7 @@ Ollama → for retrieval-augmented generation
 
 Storage: CSV (planned: FAISS / Pinecone for embeddings)
 
-📂 Project Workflow
+<h2>📂 Project Workflow</h2>
 
 Scraper Module → Queries web sources for research papers.
 
@@ -52,10 +52,11 @@ Data Store → Results saved in a growing CSV.
 
 RAG Agent → Indexes CSV content, answers user queries, and cites sources.
 
-📊 Example CSV Schema
+<h2>📊 Example CSV Schema</h2>
+
 Query	Title Authors	Publication_Date Summary
 
-💡 Future Improvements
+<h2>💡 Future Improvements</h2>
 
 Switch from CSV → database + vector store for scalability.
 
@@ -69,7 +70,7 @@ Add evaluation pipeline (ROUGE, BLEU, factuality checks).
 
 Implement citation-aware summaries (with DOI/author references).
 
-📖 About
+<h2>📖 About</h2>
 
 I built this project as a freshman undergraduate computer science student interested in machine learning, information retrieval, and applied AI systems. The end goal is to create a fully functional research assistant that not only gathers information but also helps understand and interact with it, finds gaps, assists in thesis writing, and performs all of the functions that a regular research assistant would do.
 

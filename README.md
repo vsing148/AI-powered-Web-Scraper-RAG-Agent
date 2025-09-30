@@ -1,4 +1,4 @@
-Research Scraper + RAG Agent 📚🤖
+<h1>Research Scraper + RAG Agent 📚🤖</h1>
 
 This project is an AI-powered research assistant that scrapes academic publications from the web, summarizes them, and stores the results in a structured format for later retrieval by a retrieval-augmented generation (RAG) agent. It combines scraping, structured data engineering, and rag into a single pipeline.
 
@@ -14,7 +14,7 @@ Continuously update the CSV after every new query.
 
 Use a RAG agent specialized on the CSV to answer natural language questions grounded in the scraped research.
 
-🚀 Features
+<h2>🚀 Features</h2>
 
 Automated Scraping → Collects academic articles and metadata from the web.
 
